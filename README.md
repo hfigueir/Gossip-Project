@@ -1,6 +1,6 @@
 # README
 
-Lien du site en production Heroku: https://the-gossip-roject.herokuapp.com/home
+Lien du site en production Heroku: https://gentle-beyond-38026.herokuapp.com/home
 
 Commande:
 heroku run rails db:migrate,
