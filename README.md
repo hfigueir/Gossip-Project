@@ -2,6 +2,10 @@
 
 Lien du site en production Heroku: https://the-gossip-roject.herokuapp.com/home
 
+Commande:
+heroku run rails db:migrate
+heroku run rails db:seed
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
