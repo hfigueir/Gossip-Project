@@ -1,0 +1,8 @@
+<h1>Bienvenue à toi <%= @first_name %> !!  Ici c'est notre super site de potins, il est chouette, non ?</h1><br /><br />
+
+<h1>Voici tous les gossips crées</h1>
+
+<p> <% @gossips.each do |gossi| %>
+    Auteur du gossip: <%=gossi.author%>, GOSSIP: <%=gossi.content%>, LIEN: <a href="gossip/<%= gossi.id%>/">Profil</a>  <br /> <br />
+    <% end %>
+</p>
